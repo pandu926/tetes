@@ -1,0 +1,99 @@
+#body {
+    background-color: rgba(0, 255, 114, 0.31);
+}
+
+#judul {
+    color: black;
+    
+}
+#mobile {
+    display: none;
+}
+#menu a {
+    font-size: 20px;
+    padding: 7px;
+}
+
+#slogan {
+    text-transform: capitalize;
+
+}
+#konten {
+    margin-top: 70px;
+}
+#konten p {
+    font-size: 20px;
+}
+#kotak {
+    background-color: white;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+   
+}
+
+#kotak:hover {
+    box-shadow: 0 4px 10px black, 0 4px 10px blue;
+}
+
+@media screen and (max-width:576px){
+    
+    #atas {
+        display:none
+    }
+    #mobile #judul,i {
+        font-size: 30px;
+        font-weight: bolder;
+        text-decoration: none;
+        color: black;
+    }
+    #mobile #judul {
+       margin-top: -13px;
+       font-size: 35px;
+    }
+    #mobile {
+        display: flex;
+    }
+    #slogan {
+        font-size: 20px;
+    }
+    #menu {
+        display: none;
+    }
+    #humbergerbar ul,li {
+       list-style: none;
+       list-style-type: none;
+    }
+    #humbergerbar {
+        background-color: blue;
+    }
+}
+
+
+
+@media screen and (max-width:576px){
+    .wadah {
+        text-align: center;
+        margin-left: 10%;
+        width: 80%;
+        height: 150px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: blue;
+        box-shadow: 10px 10px 10px blue;
+    }
+    #konten p{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    #konten a p {
+        font-size: 15px;
+        font-weight: normal;
+    } 
+    .card {
+        width: 155px; 
+        height: 200px; 
+        margin-left: -15px;
+    }
+    
+}
