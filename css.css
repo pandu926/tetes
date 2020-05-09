@@ -15,6 +15,7 @@
 }
 
 #slogan {
+    margin-bottom: 50px;
     text-transform: capitalize;
 
 }
@@ -31,6 +32,7 @@
     margin-bottom: 30px;
    
 }
+
 
 #kotak:hover {
     box-shadow: 0 4px 10px black, 0 4px 10px blue;
@@ -64,9 +66,7 @@
        list-style: none;
        list-style-type: none;
     }
-    #humbergerbar {
-        background-color: blue;
-    }
+    
 }
 
 
@@ -79,8 +79,8 @@
         height: 150px;
         border-radius: 20px;
         background-color: white;
-        box-shadow: blue;
-        box-shadow: 10px 10px 10px blue;
+        
+        box-shadow: 2px 10px 10px black;
     }
     #konten p{
         font-size: 20px;
@@ -95,5 +95,21 @@
         height: 200px; 
         margin-left: -15px;
     }
+    #menu {
+        display: none;
+    }
+    .humberger  {
+        position: relative;
+        
+    }
     
+    
+}
+
+.humberger  {
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+    left: -100%;
+    width: 100%;
 }

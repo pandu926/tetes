@@ -8,6 +8,19 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Basbas</title>
+
+    <script>
+        $(document).ready(function(){
+            $("#icon").click(function(){
+                $(".humberger").toggleClass('a');
+            });
+        });
+    </script>
+    <style>
+        .a {
+        left:0;
+    }
+    </style>
 </head>
 <body id="body">
     <nav id="atas" class="mt-3">
@@ -46,7 +59,7 @@
     </nav>
 
 
-    <div id="menu" class=" bg-dark text-light mt-4">
+    <div id="menu" class=" text-light mt-4">
         <div class="container">
             <div class="row ">
                 <a href="#" class="col">Home</a>
@@ -58,8 +71,7 @@
             </div>
         </div>
     </div>
-
-    <div id="humburgerbar">
+    <div class="humberger">
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Kategori</a></li>
@@ -67,10 +79,19 @@
             <li><a href="#">Home</a></li>
         </ul>
     </div>
-    <h1 id="slogan" class="text-center mt-4">Selamat datang di website download video dewasa indonesia</h1>
+
+    <!-- <div id="humburger" class="bg-dark">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Kategori</a></li>
+            <li><a href="#">video</a></li>
+            <li><a href="#">Home</a></li>
+        </ul>
+    </div> -->
+    <h1 id="slogan" class="text-center mt-4">Selamat datang di website download anime sub indonesia</h1>
 
     <div class="caraousel">
-        <h3 class="text-center">Upload Terbaru</h3>
+        <h4 class="text-center mb-4">Upload Terbaru</h4>
         <div class="wadah  ">
             tes
         </div>
